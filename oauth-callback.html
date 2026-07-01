@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TikTok login — LSST Live</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="badge">Login Kit</span>
+      <h1>Connecting TikTok…</h1>
+    </header>
+    <main>
+      <p id="status" class="status">Finishing authorization…</p>
+      <p class="hint">This page must stay on <code>cyberbob4269.github.io</code> for TikTok app review.</p>
+    </main>
+  </div>
+  <script>
+    (async function () {
+      const status = document.getElementById("status");
+      const params = new URLSearchParams(location.search);
+      const code = params.get("code");
+      const state = params.get("state");
+      const err = params.get("error");
+      if (err) {
+        status.textContent = "TikTok declined: " + (params.get("error_description") || err);
+        return;
+      }
+      if (!code) {
+        status.textContent = "Missing authorization code.";
+        return;
+      }
+      try {
+        const res = await fetch("http://127.0.0.1:8767/api/tiktok/token", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ code, state }),
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || res.statusText);
+        location.href = "publish.html?connected=1";
+      } catch (e) {
+        status.textContent = "Could not reach local bridge. Start cosmic_tiktok_server.py, then connect again. (" + e.message + ")";
+      }
+    })();
+  </script>
+</body>
+</html>

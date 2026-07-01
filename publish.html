@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Publish to TikTok — LSST Live</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .panel { background: var(--card); border-radius: 8px; padding: 1.25rem; margin: 1rem 0; }
+    .status { font-size: 0.95rem; color: var(--muted); }
+    .status.ok { color: #86efac; }
+    .status.err { color: #fca5a5; }
+    label { display: block; margin: 0.75rem 0 0.35rem; font-weight: 600; }
+    input[type="text"], select, textarea {
+      width: 100%; padding: 0.55rem 0.65rem; border-radius: 6px;
+      border: 1px solid #2a3144; background: #0f121a; color: var(--text);
+    }
+    textarea { min-height: 4.5rem; resize: vertical; }
+    button, .btn {
+      display: inline-block; margin-top: 1rem; padding: 0.65rem 1rem;
+      border: 0; border-radius: 6px; background: var(--accent); color: #fff;
+      font-weight: 600; cursor: pointer; text-decoration: none;
+    }
+    button:disabled, .btn.disabled { opacity: 0.45; cursor: not-allowed; }
+    .hint { font-size: 0.9rem; color: var(--muted); }
+    #creator-card { display: none; }
+    #creator-card.visible { display: block; }
+    .avatar { width: 48px; height: 48px; border-radius: 50%; vertical-align: middle; margin-right: 0.5rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="badge">Operator tool · Sandbox</span>
+      <h1>Publish to TikTok</h1>
+      <p class="lead">Channel operator flow for LSST Live — Login Kit + Content Posting API.</p>
+    </header>
+    <nav aria-label="Site">
+      <a href="index.html">Home</a>
+      <a href="terms.html">Terms</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+
+    <div class="panel">
+      <p id="bridge-status" class="status">Checking local publish bridge…</p>
+      <p class="hint">Run on your PC: <code>python scripts/social/cosmic_tiktok_server.py</code></p>
+    </div>
+
+    <div class="panel" id="login-panel">
+      <h2>1. Connect TikTok (Login Kit)</h2>
+      <p class="hint">Scopes: <code>user.info.basic</code>, <code>video.upload</code>, <code>video.publish</code></p>
+      <a id="connect-btn" class="btn disabled" href="#" aria-disabled="true">Connect TikTok account</a>
+    </div>
+
+    <div class="panel" id="creator-card">
+      <h2>Connected account</h2>
+      <p><img id="creator-avatar" class="avatar" alt="" /><strong id="creator-name"></strong> <span id="creator-handle" class="hint"></span></p>
+    </div>
+
+    <div class="panel" id="publish-panel">
+      <h2>2. Post video (Content Posting API)</h2>
+      <label for="video">Video file (MP4)</label>
+      <input id="video" type="file" accept="video/mp4,video/quicktime" />
+      <label for="title">Caption / title</label>
+      <textarea id="title" placeholder="Tonight's NEO alert on the LSST Live map — sources in description. #astronomy #LSSTLive"></textarea>
+      <label for="privacy">Privacy (required — choose manually)</label>
+      <select id="privacy">
+        <option value="">— select privacy —</option>
+      </select>
+      <label><input id="disable-comment" type="checkbox" /> Disable comments</label>
+      <button id="publish-btn" type="button" disabled>Publish to TikTok</button>
+      <p id="publish-status" class="status"></p>
+      <p class="hint">Unaudited apps post as <strong>Self only</strong> in sandbox — that is expected.</p>
+    </div>
+  </div>
+  <script src="publish.js"></script>
+</body>
+</html>
