@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TRAPPIST-1 Lab — LSST Live</title>
+  <meta name="description" content="Interactive face-on orbit view of TRAPPIST-1 planets b–h. NASA Exoplanet Archive data. Drag to pan, scroll to zoom, click planets for details." />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="labs.css" />
+</head>
+<body class="lab-layout">
+  <div class="wrap">
+    <header class="lab-header">
+      <span class="badge badge-nasa">NASA Exoplanet Archive snapshot</span>
+      <h1>TRAPPIST-1 System Lab</h1>
+      <p class="subtitle">Face-on coplanar orbits · click a planet for details</p>
+    </header>
+
+    <nav class="lab-nav" aria-label="Lab navigation">
+      <a href="index.html">← All labs</a>
+      <a href="../index.html">LSST Live home</a>
+      <a href="toi-neighborhood-lab.html">Nearby stars lab</a>
+    </nav>
+  </div>
+
+  <div class="lab-main">
+    <div class="lab-canvas-wrap" id="canvasWrap" aria-label="TRAPPIST-1 orbital diagram. Drag to pan, scroll to zoom, click a planet for details.">
+      <canvas id="orbitCanvas" role="img" aria-label="Interactive TRAPPIST-1 planet orbit diagram"></canvas>
+      <div class="lab-hint" aria-hidden="true">Drag · scroll zoom · click planet</div>
+    </div>
+
+    <aside class="lab-sidebar" id="sidebar" aria-live="polite">
+      <h2 id="sidebarTitle">TRAPPIST-1</h2>
+      <div id="sidebarContent">
+        <p>Select a planet in the diagram, or explore the seven known worlds orbiting this ultracool red dwarf 12.43 parsecs away.</p>
+      </div>
+      <div class="lab-disclaimer">
+        <strong>Schematic orbits</strong> from published Kepler parameters (PSCompPars) — not live ephemeris. Any habitability discussion is speculative.
+      </div>
+    </aside>
+  </div>
+
+  <footer class="lab-footer wrap">
+    <p>Data: <a href="https://exoplanetarchive.ipac.caltech.edu/overview/Trappist-1">NASA Exoplanet Archive — TRAPPIST-1</a> · © 2026 Netwrx Solutions Limited / LSST Live · Not affiliated with NSF or Vera C. Rubin Observatory.</p>
+  </footer>
+
+  <script src="trappist-1-lab.js"></script>
+</body>
+</html>

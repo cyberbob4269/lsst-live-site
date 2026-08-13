@@ -1,0 +1,276 @@
+{
+  "demo": true,
+  "scale": "1 unit = 1 parsec",
+  "attribution": "NASA Exoplanet Archive",
+  "archive_url": "https://exoplanetarchive.ipac.caltech.edu/",
+  "disclaimer": "Demo snapshot of the nearest confirmed exoplanet host systems — not the full local catalog.",
+  "systems": [
+    {
+      "hostname": "Proxima Cen",
+      "st_dist_pc": 1.301,
+      "position_pc": { "x": -0.4745, "y": -1.156, "z": -0.3627 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/Proxima%20Cen",
+      "planets": [
+        { "pl_name": "Proxima Cen b", "period_days": 11.186, "teq_k": 218, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "Proxima Cen d", "period_days": 5.12, "teq_k": 282, "discoverymethod": "Radial Velocity" }
+      ]
+    },
+    {
+      "hostname": "Barnard's star",
+      "st_dist_pc": 1.827,
+      "position_pc": { "x": -0.0175, "y": 0.1509, "z": -1.8202 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/Barnard's%20star",
+      "planets": [
+        { "pl_name": "Barnard's Star b", "period_days": 233.5, "teq_k": 103, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "Barnard's Star c", "period_days": 122.7, "teq_k": 127, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "Barnard's Star d", "period_days": 92.1, "teq_k": 140, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "Barnard's Star e", "period_days": 62.7, "teq_k": 159, "discoverymethod": "Radial Velocity" }
+      ]
+    },
+    {
+      "hostname": "eps Eri",
+      "st_dist_pc": 3.203,
+      "position_pc": { "x": 1.8911, "y": -0.5263, "z": 2.5305 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/eps%20Eri",
+      "planets": [
+        { "pl_name": "eps Eri b", "period_days": 2502.0, "teq_k": 150, "discoverymethod": "Imaging" }
+      ]
+    },
+    {
+      "hostname": "GJ 887",
+      "st_dist_pc": 3.287,
+      "position_pc": { "x": 2.5906, "y": -1.9248, "z": -0.6218 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/GJ%20887",
+      "planets": [
+        { "pl_name": "GJ 887 b", "period_days": 9.3, "teq_k": 350, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "GJ 887 c", "period_days": 21.8, "teq_k": 260, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "GJ 887 d", "period_days": 50.7, "teq_k": 190, "discoverymethod": "Radial Velocity" }
+      ]
+    },
+    {
+      "hostname": "Ross 128",
+      "st_dist_pc": 3.375,
+      "position_pc": { "x": -3.3694, "y": 0.0471, "z": 0.1803 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/Ross%20128",
+      "planets": [
+        { "pl_name": "Ross 128 b", "period_days": 9.87, "teq_k": 213, "discoverymethod": "Radial Velocity" }
+      ]
+    },
+    {
+      "hostname": "tau Cet",
+      "st_dist_pc": 3.603,
+      "position_pc": { "x": 3.1137, "y": -0.9891, "z": 1.5193 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/tau%20Cet",
+      "planets": [
+        { "pl_name": "tau Cet e", "period_days": 162.9, "teq_k": 190, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "tau Cet f", "period_days": 636.0, "teq_k": 140, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "tau Cet g", "period_days": 1340.0, "teq_k": 110, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "tau Cet h", "period_days": 49.4, "teq_k": 280, "discoverymethod": "Radial Velocity" }
+      ]
+    },
+    {
+      "hostname": "Teegarden's Star",
+      "st_dist_pc": 3.831,
+      "position_pc": { "x": 2.6694, "y": 1.1114, "z": 2.5128 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/Teegarden's%20Star",
+      "planets": [
+        { "pl_name": "Teegarden's Star b", "period_days": 4.91, "teq_k": 264, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "Teegarden's Star c", "period_days": 11.41, "teq_k": 205, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "Teegarden's Star d", "period_days": 26.13, "teq_k": 160, "discoverymethod": "Radial Velocity" }
+      ]
+    },
+    {
+      "hostname": "YZ Cet",
+      "st_dist_pc": 3.712,
+      "position_pc": { "x": 3.3736, "y": -1.0851, "z": 1.1048 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/YZ%20Cet",
+      "planets": [
+        { "pl_name": "YZ Cet b", "period_days": 1.97, "teq_k": 370, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "YZ Cet c", "period_days": 3.65, "teq_k": 300, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "YZ Cet d", "period_days": 7.44, "teq_k": 240, "discoverymethod": "Radial Velocity" }
+      ]
+    },
+    {
+      "hostname": "GJ 876",
+      "st_dist_pc": 4.675,
+      "position_pc": { "x": 4.3404, "y": -1.1521, "z": -1.3002 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/GJ%20876",
+      "planets": [
+        { "pl_name": "GJ 876 b", "period_days": 61.0, "teq_k": 200, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "GJ 876 c", "period_days": 30.0, "teq_k": 250, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "GJ 876 d", "period_days": 1.94, "teq_k": 700, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "GJ 876 e", "period_days": 124.0, "teq_k": 170, "discoverymethod": "Radial Velocity" }
+      ]
+    },
+    {
+      "hostname": "Wolf 1061",
+      "st_dist_pc": 4.306,
+      "position_pc": { "x": -1.6026, "y": -0.9443, "z": -3.8834 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/Wolf%201061",
+      "planets": [
+        { "pl_name": "Wolf 1061 b", "period_days": 4.89, "teq_k": 350, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "Wolf 1061 c", "period_days": 17.87, "teq_k": 220, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "Wolf 1061 d", "period_days": 67.27, "teq_k": 150, "discoverymethod": "Radial Velocity" }
+      ]
+    },
+    {
+      "hostname": "Kapteyn's Star",
+      "st_dist_pc": 3.99,
+      "position_pc": { "x": 0.864, "y": -2.87, "z": 2.08 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/Kapteyn's%20Star",
+      "planets": [
+        { "pl_name": "Kapteyn's Star b", "period_days": 48.6, "teq_k": 213, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "Kapteyn's Star c", "period_days": 121.5, "teq_k": 165, "discoverymethod": "Radial Velocity" }
+      ]
+    },
+    {
+      "hostname": "GJ 674",
+      "st_dist_pc": 4.5,
+      "position_pc": { "x": -2.1, "y": 3.2, "z": -1.8 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/GJ%20674",
+      "planets": [
+        { "pl_name": "GJ 674 b", "period_days": 4.7, "teq_k": 450, "discoverymethod": "Radial Velocity" }
+      ]
+    },
+    {
+      "hostname": "GJ 682",
+      "st_dist_pc": 4.9,
+      "position_pc": { "x": 1.2, "y": -4.5, "z": 1.0 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/GJ%20682",
+      "planets": [
+        { "pl_name": "GJ 682 b", "period_days": 17.4, "teq_k": 250, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "GJ 682 c", "period_days": 57.3, "teq_k": 170, "discoverymethod": "Radial Velocity" }
+      ]
+    },
+    {
+      "hostname": "HD 219134",
+      "st_dist_pc": 6.5,
+      "position_pc": { "x": 5.8, "y": 2.1, "z": -1.5 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/HD%20219134",
+      "planets": [
+        { "pl_name": "HD 219134 b", "period_days": 3.09, "teq_k": 1100, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "HD 219134 c", "period_days": 6.76, "teq_k": 800, "discoverymethod": "Transit" },
+        { "pl_name": "HD 219134 d", "period_days": 46.7, "teq_k": 350, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "HD 219134 f", "period_days": 22.7, "teq_k": 500, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "HD 219134 g", "period_days": 94.2, "teq_k": 250, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "HD 219134 h", "period_days": 1190.0, "teq_k": 100, "discoverymethod": "Radial Velocity" }
+      ]
+    },
+    {
+      "hostname": "Gliese 667 C",
+      "st_dist_pc": 7.2,
+      "position_pc": { "x": -5.5, "y": 4.2, "z": -1.8 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/Gliese%20667%20C",
+      "planets": [
+        { "pl_name": "Gliese 667 C b", "period_days": 7.2, "teq_k": 370, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "Gliese 667 C c", "period_days": 28.1, "teq_k": 220, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "Gliese 667 C d", "period_days": 59.0, "teq_k": 170, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "Gliese 667 Ce", "period_days": 39.0, "teq_k": 190, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "Gliese 667 Cf", "period_days": 54.0, "teq_k": 180, "discoverymethod": "Radial Velocity" }
+      ]
+    },
+    {
+      "hostname": "61 Vir",
+      "st_dist_pc": 8.5,
+      "position_pc": { "x": 6.2, "y": -5.0, "z": 2.5 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/61%20Vir",
+      "planets": [
+        { "pl_name": "61 Vir b", "period_days": 4.2, "teq_k": 700, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "61 Vir c", "period_days": 38.0, "teq_k": 280, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "61 Vir d", "period_days": 123.0, "teq_k": 170, "discoverymethod": "Radial Velocity" }
+      ]
+    },
+    {
+      "hostname": "GJ 357",
+      "st_dist_pc": 9.4,
+      "position_pc": { "x": -8.5, "y": 3.5, "z": 1.2 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/GJ%20357",
+      "planets": [
+        { "pl_name": "GJ 357 b", "period_days": 3.93, "teq_k": 525, "discoverymethod": "Transit" },
+        { "pl_name": "GJ 357 c", "period_days": 9.12, "teq_k": 260, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "GJ 357 d", "period_days": 55.7, "teq_k": 130, "discoverymethod": "Radial Velocity" }
+      ]
+    },
+    {
+      "hostname": "L 98-59",
+      "st_dist_pc": 10.6,
+      "position_pc": { "x": 7.8, "y": 6.5, "z": -2.0 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/L%2098-59",
+      "planets": [
+        { "pl_name": "L 98-59 b", "period_days": 2.25, "teq_k": 700, "discoverymethod": "Transit" },
+        { "pl_name": "L 98-59 c", "period_days": 3.7, "teq_k": 550, "discoverymethod": "Transit" },
+        { "pl_name": "L 98-59 d", "period_days": 7.5, "teq_k": 400, "discoverymethod": "Transit" }
+      ]
+    },
+    {
+      "hostname": "GJ 1132",
+      "st_dist_pc": 12.6,
+      "position_pc": { "x": -10.5, "y": -6.0, "z": 3.0 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/GJ%201132",
+      "planets": [
+        { "pl_name": "GJ 1132 b", "period_days": 1.63, "teq_k": 580, "discoverymethod": "Transit" }
+      ]
+    },
+    {
+      "hostname": "GJ 1214",
+      "st_dist_pc": 14.6,
+      "position_pc": { "x": 12.0, "y": 8.0, "z": -2.5 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/GJ%201214",
+      "planets": [
+        { "pl_name": "GJ 1214 b", "period_days": 1.58, "teq_k": 550, "discoverymethod": "Transit" }
+      ]
+    },
+    {
+      "hostname": "TRAPPIST-1",
+      "st_dist_pc": 12.43,
+      "position_pc": { "x": 9.5, "y": -7.0, "z": 2.8 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/Trappist-1",
+      "planets": [
+        { "pl_name": "TRAPPIST-1 b", "period_days": 1.51, "teq_k": 398, "discoverymethod": "Transit" },
+        { "pl_name": "TRAPPIST-1 e", "period_days": 6.1, "teq_k": 250, "discoverymethod": "Transit" },
+        { "pl_name": "TRAPPIST-1 g", "period_days": 12.4, "teq_k": 197, "discoverymethod": "Transit" }
+      ]
+    },
+    {
+      "hostname": "GJ 163",
+      "st_dist_pc": 15.3,
+      "position_pc": { "x": -14.0, "y": 5.5, "z": 3.0 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/GJ%20163",
+      "planets": [
+        { "pl_name": "GJ 163 b", "period_days": 8.63, "teq_k": 350, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "GJ 163 c", "period_days": 25.6, "teq_k": 220, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "GJ 163 d", "period_days": 604.0, "teq_k": 90, "discoverymethod": "Radial Velocity" }
+      ]
+    },
+    {
+      "hostname": "GJ 251",
+      "st_dist_pc": 6.2,
+      "position_pc": { "x": 4.5, "y": 4.0, "z": -1.5 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/GJ%20251",
+      "planets": [
+        { "pl_name": "GJ 251 b", "period_days": 5.6, "teq_k": 400, "discoverymethod": "Radial Velocity" }
+      ]
+    },
+    {
+      "hostname": "GJ 180",
+      "st_dist_pc": 11.6,
+      "position_pc": { "x": -9.0, "y": 6.5, "z": 2.0 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/GJ%20180",
+      "planets": [
+        { "pl_name": "GJ 180 b", "period_days": 17.4, "teq_k": 240, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "GJ 180 c", "period_days": 39.0, "teq_k": 180, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "GJ 180 d", "period_days": 67.0, "teq_k": 150, "discoverymethod": "Radial Velocity" }
+      ]
+    },
+    {
+      "hostname": "GJ 433",
+      "st_dist_pc": 9.7,
+      "position_pc": { "x": 8.0, "y": -5.0, "z": 2.5 },
+      "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/GJ%20433",
+      "planets": [
+        { "pl_name": "GJ 433 c", "period_days": 7.9, "teq_k": 350, "discoverymethod": "Radial Velocity" },
+        { "pl_name": "GJ 433 d", "period_days": 766.0, "teq_k": 80, "discoverymethod": "Radial Velocity" }
+      ]
+    }
+  ]
+}

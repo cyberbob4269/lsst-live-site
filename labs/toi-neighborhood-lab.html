@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nearby Exoplanet Neighborhood — LSST Live</title>
+  <meta name="description" content="3D map of confirmed exoplanet host stars near the Sun. NASA Exoplanet Archive demo snapshot. Drag to rotate, scroll to zoom, click stars for planets." />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="labs.css" />
+</head>
+<body class="lab-layout">
+  <div class="wrap">
+    <header class="lab-header">
+      <span class="badge badge-demo">Demo snapshot · nearest systems</span>
+      <h1>Nearby Exoplanet Neighborhood</h1>
+      <p class="subtitle">Confirmed host stars within ~16 pc · Sun at centre</p>
+    </header>
+
+    <nav class="lab-nav" aria-label="Lab navigation">
+      <a href="index.html">← All labs</a>
+      <a href="../index.html">LSST Live home</a>
+      <a href="trappist-1-lab.html">TRAPPIST-1 lab</a>
+    </nav>
+  </div>
+
+  <div class="lab-main">
+    <div class="lab-canvas-wrap" id="canvasWrap" aria-label="Nearby exoplanet host star map. Drag to rotate view, scroll to zoom, click a star for its planets.">
+      <canvas id="neighborhoodCanvas" role="img" aria-label="Interactive 3D map of nearby exoplanet host stars"></canvas>
+      <div class="lab-hint" aria-hidden="true">Drag · scroll zoom · click star</div>
+    </div>
+
+    <aside class="lab-sidebar" id="sidebar" aria-live="polite">
+      <h2 id="sidebarTitle">The Sun</h2>
+      <div id="sidebarContent">
+        <p>Origin of the map (0, 0, 0 pc). Click any star to see its confirmed exoplanets. Scale: 1 unit = 1 parsec.</p>
+      </div>
+      <div class="lab-disclaimer">
+        <strong>Demo snapshot</strong> of the nearest confirmed exoplanet hosts — not the full ~3000-row local catalog. Positions are approximate 3D coordinates in parsecs.
+      </div>
+    </aside>
+  </div>
+
+  <footer class="lab-footer wrap">
+    <p>Data: <a href="https://exoplanetarchive.ipac.caltech.edu/">NASA Exoplanet Archive</a> · © 2026 Netwrx Solutions Limited / LSST Live · Not affiliated with NSF or Vera C. Rubin Observatory.</p>
+  </footer>
+
+  <script src="toi-neighborhood-lab.js"></script>
+</body>
+</html>

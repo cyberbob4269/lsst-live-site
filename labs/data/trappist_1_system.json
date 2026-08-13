@@ -1,0 +1,77 @@
+{
+  "source": "NASA Exoplanet Archive PSCompPars",
+  "archive_url": "https://exoplanetarchive.ipac.caltech.edu/overview/Trappist-1",
+  "disclaimer": "Schematic published Kepler orbits — not live ephemeris. Habitability discussion is speculative.",
+  "star": {
+    "name": "TRAPPIST-1",
+    "mass_msun": 0.0898,
+    "radius_rsun": 0.1192,
+    "teff_k": 2566,
+    "dist_pc": 12.43
+  },
+  "planets": [
+    {
+      "letter": "b",
+      "name": "TRAPPIST-1 b",
+      "period_days": 1.510826,
+      "a_au": 0.01154,
+      "radius_re": 1.116,
+      "mass_me": 1.374,
+      "teq_k": 397.6
+    },
+    {
+      "letter": "c",
+      "name": "TRAPPIST-1 c",
+      "period_days": 2.421937,
+      "a_au": 0.0158,
+      "radius_re": 1.097,
+      "mass_me": 1.308,
+      "teq_k": 339.7
+    },
+    {
+      "letter": "d",
+      "name": "TRAPPIST-1 d",
+      "period_days": 4.049219,
+      "a_au": 0.02227,
+      "radius_re": 0.788,
+      "mass_me": 0.388,
+      "teq_k": 286.2
+    },
+    {
+      "letter": "e",
+      "name": "TRAPPIST-1 e",
+      "period_days": 6.101013,
+      "a_au": 0.02925,
+      "radius_re": 0.92,
+      "mass_me": 0.692,
+      "teq_k": 249.7
+    },
+    {
+      "letter": "f",
+      "name": "TRAPPIST-1 f",
+      "period_days": 9.20754,
+      "a_au": 0.03849,
+      "radius_re": 1.045,
+      "mass_me": 1.039,
+      "teq_k": 217.7
+    },
+    {
+      "letter": "g",
+      "name": "TRAPPIST-1 g",
+      "period_days": 12.352446,
+      "a_au": 0.04683,
+      "radius_re": 1.129,
+      "mass_me": 1.321,
+      "teq_k": 197.3
+    },
+    {
+      "letter": "h",
+      "name": "TRAPPIST-1 h",
+      "period_days": 18.772866,
+      "a_au": 0.06189,
+      "radius_re": 0.755,
+      "mass_me": 0.326,
+      "teq_k": 171.7
+    }
+  ]
+}

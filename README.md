@@ -9,9 +9,20 @@ Family-friendly astronomy outreach: a free Windows desktop app and social video 
 | Page | Purpose |
 |------|---------|
 | [index.html](index.html) | Project overview |
+| [labs/index.html](labs/index.html) | Public exoplanet interactive labs (landing) |
+| [labs/trappist-1-lab.html](labs/trappist-1-lab.html) | TRAPPIST-1 face-on orbit demo |
+| [labs/toi-neighborhood-lab.html](labs/toi-neighborhood-lab.html) | Nearby confirmed exoplanet host stars (3D map) |
 | [terms.html](terms.html) | Terms of Service (TikTok app review) |
 | [privacy.html](privacy.html) | Privacy Policy (TikTok app review) |
 | [publish.html](publish.html) | Operator tool for TikTok Content Posting API |
+
+## Public exoplanet labs (GitHub Pages)
+
+Interactive browser demos using NASA Exoplanet Archive snapshot data — no localhost, no Vera app required:
+
+- [Labs overview](https://cyberbob4269.github.io/lsst-live-site/labs/)
+- [TRAPPIST-1 system lab](https://cyberbob4269.github.io/lsst-live-site/labs/trappist-1-lab.html)
+- [Nearby exoplanet neighborhood](https://cyberbob4269.github.io/lsst-live-site/labs/toi-neighborhood-lab.html)
 
 ## TikTok publishing (local bridge)
 
